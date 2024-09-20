@@ -1,0 +1,16 @@
+header, nav, main {
+    max-width: 960px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+nav ul li a {
+    padding: .5rem $gutter;
+    font-size: .9rem;
+}
+section {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+  }
